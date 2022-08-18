@@ -1,0 +1,3 @@
+module TwoSumAlgorithm {
+	exports TwoSumAlg;
+}
