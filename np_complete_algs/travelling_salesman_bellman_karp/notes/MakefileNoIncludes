@@ -1,0 +1,13 @@
+CC = g++
+
+TARGET = TravellingSaleman
+
+CFLAGS = -g -Wall
+
+all: $(TARGET)
+	
+$(TARGET): src/Main.cpp
+	$(CC) $(CFLAGS) -o $(TARGET) src/Main.cpp src/BellmanHeldKarp.cpp src/CartesianCoordinates.cpp src/Subsets.cpp
+
+clean:
+	$(RM) $(TARGET)
