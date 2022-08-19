@@ -1,0 +1,3 @@
+module ProcessorCacheScheduler {
+	exports cacheScheduling;
+}
